@@ -1,5 +1,13 @@
-# Development Container Template
+# Azure DevOps Self-Hosted Agent
 
-This project can be used as a template for other, new GitHub projects where you would
-like to use [this Docker image](https://github.com/ateamsw/devcontainer) as the dev
-container in your VS Code projects.
+This project builds a self-hosted agent that can be use by Azure DevOps for CI/CD within Azure Pipelines.
+
+## Testing Locally
+
+```bash
+
+docker build -t dockeragent:latest .
+
+docker run
+
+```
