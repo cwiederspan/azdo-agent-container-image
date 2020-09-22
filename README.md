@@ -2,6 +2,8 @@
 
 This project builds a self-hosted agent that can be use by Azure DevOps for CI/CD within Azure Pipelines.
 
+This approach is based on [documentation](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/docker?view=azure-devops#linux) within the Microsoft Azure docs.
+
 ## Testing Locally
 
 ```bash
